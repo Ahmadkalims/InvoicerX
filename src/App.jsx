@@ -3,8 +3,10 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0a0f1a] text-white font-sans">
+    <div className="min-h-screen bg-[#000000] text-white font-sans">
+    
       <Header />
+      
     </div>
   );
 }
