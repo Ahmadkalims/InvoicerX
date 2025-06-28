@@ -23,6 +23,7 @@ const NavButton = ({ icon, label }) => {
         hover:bg-white/10 hover:backdrop-blur-md
         active:bg-white/10 active:backdrop-blur-md
       "
+      style={{ fontFamily: "'Montserrat', sans-serif" }}
     >
       <img src={icon} alt={label} className="w-5 h-5 shrink-0" />
       
