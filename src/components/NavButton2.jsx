@@ -23,7 +23,7 @@ const NavButton = ({ label }) => {
                     hover:bg-gradient-to-r hover:from-purple-100 hover:via-blue-100 hover:to-red-100 hover:backdrop-blur-md
                     active:bg-gradient-to-r active:from-purple-100 active:via-blue-100 active:to-red-100 active:backdrop-blur-md"
             >
-                <span className="whitespace-nowrap opacity-100 ml-1 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:visible">
+                <span className="whitespace-nowrap opacity-100 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:visible">
                     {label}
                 </span>
             </div>
