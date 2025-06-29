@@ -1,49 +1,41 @@
-import React from 'react';
+import React from "react";
 
-const NavButton = ({ icon, label }) => {
-  return (
-    <div
-      style={{ fontFamily: "'Montserrat', sans-serif" }}
-      className="
-        flex items-center
-        gap-[1px]
-        px-3 py-3
-        rounded-full 
+const NavButton = ({ label }) => {
+    return (
+        <div
+            style={{ fontFamily: "'Montserrat-regular', sans-serif", fontSize: "22px" }}
+            className="
+                flex items-center
+                px-1 py-[3px]
+                rounded-[16px]
+                
+                text-[#666666] text-sm
+                cursor-pointer
 
-        text-white text-sm
-        cursor-pointer
+                overflow-hidden
+                max-w-[1000px]
+                hover:max-w-[200px]
 
-        overflow-hidden
-        max-w-[45px]
-        hover:max-w-[200px]
+                transition-all duration-300 ease-in-out
+                group
 
-        transition-all duration-300 ease-in-out
-        group
+                bg-white
+                hover:bg-gradient-to-r hover:from-purple-50 hover:via-blue-50 hover:to-red-50 
+                active:bg-gradient-to-r active:from-purple-50 active:via-blue-50 active:to-red-50"
+        >
+            <span className="
+            whitespace-nowrap 
+            opacity-100
+            px-[20px]
+            py-[0.1px]
 
-        bg-transparent
-        hover:bg-white/10 hover:backdrop-blur-md
-        active:bg-white/10 active:backdrop-blur-md">
-
-
-        <img src={icon} alt={label} className="w-5 h-5 shrink-0" />
-      
-        <span
-        className="
-          whitespace-nowrap
-          opacity-0 invisible
-          ml-1
-          
-          transition-all duration-300 ease-in
-          
-          group-hover:opacity-100 
-          group-hover:visible">
-        {label}
-        
-      </span>
-
-
-    </div>
-  );
-};
-
-export default NavButton;
+            transition-all 
+            duration-300 ease-in 
+            group-hover:opacity-100 group-hover:visible">
+                {label}
+            </span>
+        </div>
+    );
+    };
+    
+    export default NavButton;

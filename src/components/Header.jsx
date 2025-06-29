@@ -1,6 +1,6 @@
 import React from 'react';
 import NavButton from './NavButton';
-import NavButton2 from './NavButton2';
+
 
 const Header = () => {
   return (
@@ -10,9 +10,9 @@ const Header = () => {
         boxShadow: '5px 5px 10.5px rgba(26, 42, 255, 0.05)'
       }}
     >
-      <NavButton2 label="QUOTATION" />
-      <NavButton2 label="INVOICE" />
-      <NavButton2 label="RECEIPT" />
+      <NavButton label="QUOTATION" />
+      <NavButton label="INVOICE" />
+      <NavButton label="RECEIPT" />
     </header>
   );
 };
