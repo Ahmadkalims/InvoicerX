@@ -3,6 +3,7 @@
 
 import React from "react";
 import InputFieldStyle from "./InputFieldStyle";
+import FormLogo from "./FormLogo";
 
 const h1Style = {
   fontFamily: "'Montserrat medium', sans-serif",
@@ -22,6 +23,8 @@ const Form = () => {
         
         
         <h1 style={h1Style}>LOGO</h1>
+        
+        <FormLogo />
         
         
         <h1 style={h1Style}>INVOICE INFO</h1>
