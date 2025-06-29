@@ -1,5 +1,6 @@
 import React from 'react';
 import NavButton from './NavButton';
+import InputFieldStyle from "./InputFieldStyle";
 
 
 const Header = () => {
@@ -13,7 +14,10 @@ const Header = () => {
       <NavButton label="QUOTATION" />
       <NavButton label="INVOICE" />
       <NavButton label="RECEIPT" />
+      
     </header>
+
+    
   );
 };
 
