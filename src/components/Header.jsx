@@ -4,30 +4,15 @@ import NavButton2 from './NavButton2';
 
 const Header = () => {
   return (
-
-    
-    <header className="fixed top-5 left-1/2 -translate-x-1/2 bg-white/10 backdrop-blur-md p-2 rounded-full flex gap-2 z-50">
-      
-      <NavButton2
-        icon="https://img.icons8.com/?size=24&id=1iF9PyJ2Thzo&format=png&color=FFFFFF"
-        label="Home"
-      />
-
-      <NavButton
-        icon="https://img.icons8.com/?size=24&id=M1HUQOE9lLoG&format=png&color=FFFFFF"
-        label="Experience"
-      />
-
-      <NavButton
-        icon="https://img.icons8.com/?size=24&id=79387&format=png&color=FFFFFF"
-        label="Education"
-      />
-      
-      <NavButton
-        icon="https://img.icons8.com/?size=24&id=6H65NWsqha0Z&format=png&color=FFFFFF"
-        label="Contact"
-      />
-
+    <header
+      className="fixed top-[30px] left-1/2 -translate-x-1/2 bg-[#ffffff] p-1.5 rounded-full flex gap-2 z-50"
+      style={{
+        boxShadow: '5px 5px 10.5px rgba(26, 42, 255, 0.05)'
+      }}
+    >
+      <NavButton2 label="QUOTATION" />
+      <NavButton2 label="INVOICE" />
+      <NavButton2 label="RECEIPT" />
     </header>
   );
 };
