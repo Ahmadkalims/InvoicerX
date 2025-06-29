@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import BGBlueLight from './assets/BG-Blue-light.png';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     >
       <Header />
       
+      <Form />
     </div>
   );
 }
