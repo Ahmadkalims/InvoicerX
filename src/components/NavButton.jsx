@@ -3,7 +3,7 @@ import React from "react";
 const NavButton = ({ label }) => {
     return (
         <div
-            style={{ fontFamily: "'Montserrat-regular', sans-serif", fontSize: "22px" }}
+            style={{ fontFamily: "'Montserrat medium', sans-serif", fontSize: "22px" }}
             className="
                 flex items-center
                 px-1 py-[3px]

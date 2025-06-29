@@ -8,9 +8,7 @@ const Header = () => {
     <>
       <header
         className="fixed top-[30px] left-1/2 -translate-x-1/2 bg-[#ffffff]/60 p-1.5 rounded-full flex gap-2 z-50"
-        style={{
-          boxShadow: '5px 5px 10.5px rgba(26, 42, 255, 0.05)'
-        }}
+        style={{boxShadow: '5px 5px 10.5px rgba(26, 42, 255, 0.05)'}}
       >
         <NavButton label="QUOTATION" />
         <NavButton label="INVOICE" />
