@@ -19,6 +19,11 @@ const Form = () => {
   return (
     <>
       <header className="fixed top-[100px] left-1/2 -translate-x-1/2 w-full max-w-[510px] z-50">
+        
+        
+        <h1 style={h1Style}>LOGO</h1>
+        
+        
         <h1 style={h1Style}>INVOICE INFO</h1>
 
         <div className="flex flex-row gap-4">
