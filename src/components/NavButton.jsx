@@ -19,7 +19,7 @@ const NavButton = ({ label }) => {
                 transition-all duration-300 ease-in-out
                 group
 
-                bg-white
+                bg-transparent
                 hover:bg-gradient-to-r hover:from-purple-50 hover:via-blue-50 hover:to-red-50 
                 active:bg-gradient-to-r active:from-purple-50 active:via-blue-50 active:to-red-50"
         >
